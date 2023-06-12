@@ -4,16 +4,17 @@
   padding: 0;
 }
 
-<style>
+
   @import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
-</style>
+
 
 body {
   font-family: 'Yomogi', cursive;
-  color: #fff;
+  color: white;
 }
 
 header {
+  font-family: 'Yomogi', cursive;
   position: fixed;
   top: 0;
   left: 0;
@@ -23,19 +24,22 @@ header {
 }
 
 h1 {
+  font-family: 'Yomogi', cursive;
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 h2 {
+  font-family: 'Yomogi', cursive;
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 nav a {
-  color: #fff;
+  font-family: 'Yomogi', cursive;
+  color: white;
   text-decoration: none;
   margin-right: 10px;
 }
@@ -45,6 +49,8 @@ main {
 }
 
 section {
+  font-family: 'Yomogi', cursive;
+  color: white;
   padding: 50px;
 }
 
