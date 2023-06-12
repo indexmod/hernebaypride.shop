@@ -1,12 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
-
-  @import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
-
 
 body {
   font-family: 'Yomogi', cursive;
@@ -26,14 +25,14 @@ header {
 h1 {
   font-family: 'Yomogi', cursive;
   font-size: 40px;
-  font-weight: bold;
+  font-weight: 400;
   margin-bottom: 10px;
 }
 
 h2 {
   font-family: 'Yomogi', cursive;
   font-size: 25px;
-  font-weight: bold;
+  font-weight: 400;
   margin-bottom: 10px;
 }
 
@@ -55,11 +54,13 @@ section {
 }
 
 section h2 {
+  font-family: 'Yomogi', cursive;
   font-size: 24px;
   margin-bottom: 10px;
 }
 
 section p {
+  font-family: 'Yomogi', cursive;
   font-size: 18px;
   margin-bottom: 20px;
 }
