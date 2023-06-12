@@ -38,14 +38,13 @@ body {
 
 h1 {
   font-family: 'Tsukimi Rounded', sans-serif;
-  font-size: 40px;
   font-weight: 700;
+  font-size: 40px;
   margin-bottom: 10px;
 }
 
 h2 {
   font-family: 'Yomogi', cursive;
-  font-size: 25px;
   font-weight: 400;
   margin-bottom: 10px;
 }
