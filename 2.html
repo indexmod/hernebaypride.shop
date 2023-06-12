@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animated Gradient Background</title>
+  <style>
+    /* Gradient Animation */
+    body {
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+    }
+
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    /* Heading Styles */
+    h1 {
+      font-size: 32px;
+      color: white;
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    h2 {
+      font-size: 24px;
+      color: white;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    /* Paragraph Styles */
+    p {
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to My Page</h1>
+  <h2>This is a Heading</h2>
+  <p>This is a paragraph with some text.</p>
+</body>
+</html>
