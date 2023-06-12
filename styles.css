@@ -11,15 +11,30 @@ body {
   color: white;
 }
 
-header {
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient-header {
   font-family: 'Yomogi', cursive;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   padding: 20px;
-  background-image: linear-gradient(to right, #ff0000, #00ff00, #0000ff);
+  background: linear-gradient(to right, #ff0000, #00ff00, #0000ff);
+  background-size: 200% 100%;
+  animation: gradientAnimation 4s ease-in-out infinite;
 }
+
 
 h1 {
   font-family: 'Tsukimi Rounded', sans-serif;
