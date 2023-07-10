@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Yomogi', cursive;
-  color: white;
+  color: pink;
 }
 
 
@@ -26,14 +26,14 @@ h2 {
 
 nav a {
   font-family: 'Yomogi', cursive;
-  color: white;
+  color: pink;
   text-decoration: none;
   margin-right: 10px;
 }
 
 a {
   font-family: 'Yomogi', cursive;
-  color: white;
+  color: pink;
   text-decoration: none;
   margin-right: 10px;
 }
@@ -45,7 +45,7 @@ main {
 
 section {
   font-family: 'Yomogi', cursive;
-  color: white;
+  color: pink;
   padding: 50px;
 }
 
@@ -63,7 +63,7 @@ section p {
 }
 
 .button {
-            background-color: white;
+            background-color: pink;
             font-family: 'Yomogi', cursive;
             font-weight: 700;
             color: black;
