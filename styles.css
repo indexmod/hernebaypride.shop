@@ -4,13 +4,19 @@
   padding: 0;
 }
 
+section p {
+  font-family: "Yomogi", cursive;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
 p {
   font-family: "Yomogi", cursive;
   font-size: 30px;
   margin-bottom: 20px;
 }
 
-h1 {
+section h1 {
   font-family: "Yomogi", cursive;
   font-weight: 900;
   font-size: 70px;
@@ -18,11 +24,18 @@ h1 {
   background-color: white;
 }
 
-h2 {
+section h2 {
   font-family: "Yomogi", cursive;
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 50px;
+  background-color: white;
+}
+
+section a {
+  font-family: "Yomogi", cursive;
+  color: pink;
+  text-decoration: underline;
   background-color: white;
 }
 
@@ -35,6 +48,8 @@ a {
 
 main {
   padding-top: 100px;
+  font-family: "Yomogi", cursive;
+  color: pink;
 }
 
 .button {
