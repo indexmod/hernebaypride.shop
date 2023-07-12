@@ -7,6 +7,7 @@
 body {
   font-family: 'Yomogi', cursive;
   color: pink;
+  filter: black opacity(50%);
 }
 
 
@@ -84,5 +85,4 @@ video {
   height: 100%;
   object-fit: cover;
   z-index: -2;
-  filter: black opacity(50%);
 }
