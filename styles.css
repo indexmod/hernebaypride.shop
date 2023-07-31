@@ -7,9 +7,10 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: white;
-  filter: brightness(50%);
-  margin-right: auto;
+  filter: black opacity(50%);
+  margin-right: 50%
 }
+
 
 h1 {
   font-family: 'Roboto', sans-serif;
@@ -25,13 +26,20 @@ h2 {
   font-size: 40px;
 }
 
-nav a,
+nav a {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
 a {
   font-family: 'Roboto', sans-serif;
   color: white;
   text-decoration: none;
   margin-right: 10px;
 }
+
 
 main {
   padding-top: 100px;
@@ -59,18 +67,18 @@ section p {
 }
 
 .button {
-  background-color: white;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
-  color: black;
-  border: none;
-  padding: 20px 40px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  cursor: pointer;
-}
+            background-color: white;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 900;
+            color: black;
+            border: none;
+            padding: 20px 40px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            cursor: pointer;
+        }
 
 video {
   position: fixed;
