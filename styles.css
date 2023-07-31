@@ -5,36 +5,36 @@
 }
 
 body {
-  font-family: 'Yomogi', cursive;
-  color: pink;
+  font-family: 'Roboto', cursive;
+  color: white;
   filter: black opacity(50%);
 }
 
 
 h1 {
-  font-family: 'Tsukimi Rounded', sans-serif;
-  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
   font-size: 60px;
   margin-bottom: 10px;
 }
 
 h2 {
-  font-family: 'Yomogi', cursive;
-  font-weight: 400;
+  font-family: 'Roboto', cursive;
+  font-weight: 700;
   margin-bottom: 10px;
   font-size: 40px;
 }
 
 nav a {
-  font-family: 'Yomogi', cursive;
-  color: pink;
+  font-family: 'Roboto', cursive;
+  color: white;
   text-decoration: none;
   margin-right: 10px;
 }
 
 a {
-  font-family: 'Yomogi', cursive;
-  color: pink;
+  font-family: 'Roboto', cursive;
+  color: white;
   text-decoration: none;
   margin-right: 10px;
 }
@@ -45,28 +45,28 @@ main {
 }
 
 section {
-  font-family: 'Yomogi', cursive;
-  color: pink;
+  font-family: 'Roboto', cursive;
+  color: white;
   padding: 50px;
 }
 
 section h2 {
-  font-family: 'Tsukimi Rounded', sans-serif;
-  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
   font-size: 40px;
   margin-bottom: 10px;
 }
 
 section p {
-  font-family: 'Yomogi', cursive;
+  font-family: 'Roboto', cursive;
   font-size: 30px;
   margin-bottom: 20px;
 }
 
 .button {
-            background-color: pink;
-            font-family: 'Yomogi', cursive;
-            font-weight: 700;
+            background-color: white;
+            font-family: 'Roboto', cursive;
+            font-weight: 900;
             color: black;
             border: none;
             padding: 20px 40px;
