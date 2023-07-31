@@ -72,19 +72,6 @@ section p {
   cursor: pointer;
 }
 
-.container-gull {
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  padding: 10px;
-  z-index: 1; /* Higher z-index to be above the video */
-}
-
-.container-gull img {
-  width: 100px; /* Adjust the width as per your image size */
-  height: auto; /* To maintain the aspect ratio of the image */
-}
-
 video {
   position: fixed;
   top: 0;
