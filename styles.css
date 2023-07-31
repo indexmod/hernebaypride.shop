@@ -43,6 +43,7 @@ a {
 
 main {
   padding-top: 100px;
+  padding-right: 50%;
 }
 
 section {
@@ -59,9 +60,10 @@ section h2 {
 }
 
 section p {
-  font-family: 'Roboto', cursive;
+  font-family: 'Roboto', sans-serif;
   font-size: 30px;
   margin-bottom: 20px;
+  color: white;
 }
 
 .button {
