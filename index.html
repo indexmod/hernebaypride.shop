@@ -1,105 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- ... other head elements ... -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&family=Tsukimi+Rounded:wght@700&display=swap');
 
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-63G5GFS6WY"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
 
-  gtag('config', 'G-63G5GFS6WY');
-</script>
+        main {
+            position: relative;
+        }
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Herne Bay Pride 2023</title>
+        .container-gull {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            padding: 10px;
+        }
 
+        .container-gull img {
+            width: 100px; /* Adjust the width as per your image size */
+            height: auto; /* To maintain the aspect ratio of the image */
+        }
 
-  <meta property="og:title" content="Herne Bay Pride 2023" />
-  <meta property="og:description" content="Herne Bay Pride is a festival of music, dancing and fun for all LGBTQ+ people, friends, families and ally's with lots of entertainment, fun, food and drink. Herne Bay LGBTQ+ organise and run Herne Bay Pride." />
-  <meta property="og:image" content="/cover.jpg" />
-  <meta property="og:url" content="hernebaypride.shop" />
-  <meta property="og:type" content="website" />
-
-
-
-  <link rel="stylesheet" href="styles.css">
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-  <style>
-  <style>
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&family=Tsukimi+Rounded:wght@700&display=swap');
-</style>
-</style>
-
-
+        video {
+            width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-  <main>
+    <main>
+        <!-- ... rest of your content ... -->
 
-  <section>
-    <h1>HB Pride 2023</h1>
-    <h2>Herne Bay Pride is a festival of music, dancing and fun for all LGBTQ+ people, friends, families and ally's with lots of entertainment, fun, food and drink. Herne Bay LGBTQ+ organise and run Herne Bay Pride.</h2>
-    <br>
-    <a class="button" href="https://www.tide.co/HerneBayLgbtq">Donate</a>
-  </section>
-<br>
-    <section id="section-1">
-      <h2>Herne Bay Lgbtq+ Society</h2>
-      <p>The HB LGBTQ+ Society was formed in 2021 to support Lesbian, Gay, Bisexual, Trans, Queer/ Questioning and Ace people in Herne Bay and the surrounding areas.</p>
-        <br>
-        <a class="button" href="herne-bay-lgbtq-society.html">Society</a>
-    </section>
+        <div class="container-gull">
+            <img src="ms-icon-310x310.png" alt="The Gull">
+        </div>
+    </main>
 
-    <section id="section-2">
-      <h2>Herne Bay and Whistable Trans Network</h2>
-      <p>Herne Bay & Whitstable Trans Network is run and set up by a trans man.</p>
-      <a class="button" href="herne-bay-and-whistable-trans-network.html">Network</a>
-    </section>
-    <section id="section-3">
-      <h2>Up coming meetings</h2>
-
-      <p>Herne Bay's upcoming meetings offer diverse opportunities for community engagement, including town hall discussions, art exhibitions, sports events, and informative seminars.
-        <br>
-        <a class="button" href="up-coming-meetings.html">Meetings</a>
-    </section>
-    <section id="section-4">
-      <h2>Contact</h2>
-      <p>Please, contact us with following emails or social networks!</p>
-      <br>
-      <a class="button" href="contact.html">Contact</a>
-    </section>
-
-    <div class="container-gull">
-        <img src="ms-icon-310x310.png" alt="The Gull">
-    </div>
-
-  </main>
-  <video src="/video.mp4" muted loop autoplay playsinline nocontrols>
-   <source src="/video.webm" type="video/webm">
-   <source src="/video.ogg" type="video/ogg">
-   <source src="/video.mp4" type="video/mp4">
-   <source src="/video.mov" type="video/mov">
-     <script>
-        // Вставьте код JavaScript здесь
-        history.replaceState(null, null, window.location.pathname.replace('.html', ''));
-    </script>
+    <video src="/video.mp4" muted loop autoplay playsinline nocontrols>
+        <source src="/video.webm" type="video/webm">
+        <source src="/video.ogg" type="video/ogg">
+        <source src="/video.mp4" type="video/mp4">
+        <source src="/video.mov" type="video/mov">
+        <script>
+            // Вставьте код JavaScript здесь
+            history.replaceState(null, null, window.location.pathname.replace('.html', ''));
+        </script>
+    </video>
 </body>
 </html>

@@ -7,10 +7,9 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: white;
-  filter: black opacity(50%);
+  filter: brightness(50%);
   margin-right: auto;
 }
-
 
 h1 {
   font-family: 'Roboto', sans-serif;
@@ -26,20 +25,13 @@ h2 {
   font-size: 40px;
 }
 
-nav a {
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  text-decoration: none;
-  margin-right: 10px;
-}
-
+nav a,
 a {
   font-family: 'Roboto', sans-serif;
   color: white;
   text-decoration: none;
   margin-right: 10px;
 }
-
 
 main {
   padding-top: 100px;
@@ -67,32 +59,31 @@ section p {
 }
 
 .button {
-            background-color: white;
-            font-family: 'Roboto', sans-serif;
-            font-weight: 900;
-            color: black;
-            border: none;
-            padding: 20px 40px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 20px;
-            cursor: pointer;
-        }
-
-        .container-gull {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    padding: 10px;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: black;
+  border: none;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
 }
 
-.container img {
-    width: 400px; /* Adjust the width as per your image size */
-    height: auto; /* To maintain the aspect ratio of the image */
+.container-gull {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  padding: 10px;
+  z-index: 1; /* Higher z-index to be above the video */
 }
 
-
+.container-gull img {
+  width: 100px; /* Adjust the width as per your image size */
+  height: auto; /* To maintain the aspect ratio of the image */
+}
 
 video {
   position: fixed;
