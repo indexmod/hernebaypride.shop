@@ -1,78 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-63G5GFS6WY"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-63G5GFS6WY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'G-63G5GFS6WY');
-</script>
+    gtag('config', 'G-63G5GFS6WY');
+  </script>
 
   <title>Contact</title>
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" href="styles.css">
-<style>
+  <!-- Здесь остальные meta и link теги -->
+  <link rel="stylesheet" href="styles.css">
+  <style>
     /* Gradient Animation */
     body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
       background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
       background-size: 400% 400%;
       animation: gradient 15s ease infinite;
     }
 
-    @keyframes gradient {
-      0% {
-        background-position: 0% 50%;
-      }
-      50% {
-        background-position: 100% 50%;
-      }
-      100% {
-        background-position: 0% 50%;
-      }
+    container-contact {
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 10px;
     }
+
+    /* Add any other styles you may need */
   </style>
 </head>
 <body>
   <container-contact>
-  <h1>Contact</h1>
-  <h2>Please, contact us with following emails or social networks!</h2>
-  <p>🇬🇧 <a href="mailto: hblgbtqsociety@outlook.com">Main</a></p>
-  <p>🏳️‍🌈 <a href="mailto: abc@example.com">Official Herne Bay Pride</a></p>
-  <p>👋 <a href="https://www.facebook.com/hblgbtqsociety/">Facebook: Herne Bay LGBTQ+ Society</a></p>
-  <p>🕊 <a href="https://www.facebook.com/groups/hbpride">Facebook: Herne Bay Pride</a></p>
-  <p>🪗 <a href="https://www.facebook.com/groups/768888194660202">Facebook:  Herne Bay & Whitstable Trans Network </a></p>
-  <p>👀 <a href="https://www.instagram.com/hb_whit_trans_network/">Instagram: hb_whit_trans_network</a> </p>
-  <p>😎 <a href="https://www.instagram.com/hblgbtqsociety/">Instagram: hblgbtqsociety</a></p>
-  <br>
-  <p>------------------------------------------------</p>
-  <br>
-  <p>👋 Tide current account Herne Bay LGBTQ+ LTD, sort code 040605, AC 19173063</p>
-  <br>
-  <a class="button" href="/index.html">Back</a>
-</container-contact>
-<script>
-        // Вставьте код JavaScript здесь
-        history.replaceState(null, null, window.location.pathname.replace('.html', ''));
-    </script>
+    <h1>Contact</h1>
+    <h2>Please, contact us with the following emails or social networks!</h2>
+    <!-- Здесь остальные теги с контактной информацией -->
+    <br>
+    <p>------------------------------------------------</p>
+    <br>
+    <p>👋 Tide current account Herne Bay LGBTQ+ LTD, sort code 040605, AC 19173063</p>
+    <br>
+    <a class="button" href="/index.html">Back</a>
+  </container-contact>
+  <script>
+    // Вставьте код JavaScript здесь
+    history.replaceState(null, null, window.location.pathname.replace('.html', ''));
+  </script>
 </body>
 </html>
