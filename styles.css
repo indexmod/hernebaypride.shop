@@ -63,23 +63,9 @@ section p {
   margin-bottom: 20px;
 }
 
-container-page, h1, h2, p
-
-{ text-align: center;
-  margin-top: 20px;
-  margin-right: 40px;
-  margin-left: 40px; }
-
-  container-contact, h1, h2, p
-
-  { text-align: left;
-    margin-top: 20px;
-    margin-right: 40px;
-    margin-left: 40px; }
-
 .button {
             background-color: white;
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Monaco', sans-serif;
             font-weight: 900;
             color: black;
             border: none;
