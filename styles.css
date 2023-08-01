@@ -77,6 +77,11 @@ section p {
             cursor: pointer;
         }
 
+.gull {
+  height: 200px;
+  width: auto;
+}
+
 video {
   position: fixed;
   top: 0;
