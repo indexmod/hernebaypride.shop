@@ -80,6 +80,7 @@ section p {
 .gull {
   height: 200px;
   width: auto;
+  transform: rotate(-15);
 }
 
 video {
