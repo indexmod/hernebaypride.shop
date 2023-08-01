@@ -1,7 +1,10 @@
 .img-gull {
 	cursor: pointer;
 	position: absolute;
-	left: 100px;
+	left: 200px;
 	top: 100px;
+	height: 200px;
+  width: auto;
+  transform: rotate(-15);
 	z-index:4;
 }
