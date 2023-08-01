@@ -1,7 +1,7 @@
 .img-gull {
 	cursor: pointer;
 	position: absolute;
-	left: 300px;
+	left: 500px;
 	top: 100px;
 	z-index:4;
 }
