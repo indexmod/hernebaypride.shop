@@ -92,7 +92,7 @@ video {
   align-items: center;
 }
 
-img, .bottom {
-  height: 50px;
+.img-bottom {
+  height: 100px;
   margin: 0 5px; /* регулирует расстояние между изображениями */
 }
