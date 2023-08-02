@@ -104,6 +104,6 @@ video {
 }
 
 .img-bottom {
-  height: 100px;
+  height: 200px;
   margin: 0 5px; /* регулирует расстояние между изображениями */
 }
