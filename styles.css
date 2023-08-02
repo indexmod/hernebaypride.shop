@@ -10,6 +10,13 @@ body {
   border: none;
 }
 
+/* Добавляем стили для контейнера с текстом */
+.text-container {
+  max-width: 800px;
+  margin: 0 auto; /* Центрируем контейнер по горизонтали */
+  padding: 20px; /* Добавляем поля вокруг текста */
+}
+
 video {
   position: fixed;
   top: 0;
@@ -30,7 +37,6 @@ video {
   z-index: -1;
 }
 
-
 h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
@@ -48,7 +54,7 @@ h2 {
 p {
   font-family: 'Roboto', sans-serif;
   color: white;
-  margin-right: 10px;
+  margin-bottom: 20px; /* Добавляем отступ снизу для абзацев */
   font-size: 30px;
 }
 
@@ -60,22 +66,21 @@ a {
   font-size: 30px;
 }
 
-
 main {
   padding-top: 10px;
   padding-right: 10px;
 }
 
 .button {
-            background-color: white;
-            font-family: 'Monaco', sans-serif;
-            font-weight: 900;
-            color: black;
-            border: none;
-            padding: 20px 40px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 20px;
-            cursor: pointer;
-        }
+  background-color: white;
+  font-family: 'Monaco', sans-serif;
+  font-weight: 900;
+  color: black;
+  border: none;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
