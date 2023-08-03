@@ -85,7 +85,7 @@ main {
   display: inline-block;
   font-size: 20px;
   cursor: pointer;
-  border-radius: 10px; /* Добавляем закругление краев в 10 пикселей */
+  border-radius: 30px; /* Добавляем закругление краев в 10 пикселей */
 
 }
 
