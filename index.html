@@ -79,7 +79,9 @@
      <br>
      <br>
      <p>🦪 <a href="https://www.pexels.com/video/a-flock-of-seagull-flying-in-the-air-3320544/">Thank for background video by Menteş from Pexels.com</a></p>
-       <div class="gif-container" id="imageContainer"></div>
+     <br>
+     <p><img src="https://media.giphy.com/media/xUA7aPSxKZKNEEmYhG/giphy.gif" alt="Random GIF"></p>
+<br>
    </div>
   </main>
   <video src="/gulls.mp4" muted loop autoplay playsinline nocontrols>
@@ -91,23 +93,5 @@
         // Вставьте код JavaScript здесь
         history.replaceState(null, null, window.location.pathname.replace('.html', ''));
     </script>
-  <div class="gif-container" id="imageContainer"></div>
-  <script>
- // JavaScript код для вставки изображения
- document.addEventListener('DOMContentLoaded', function() {
-   var imageContainer = document.getElementById('imageContainer');
-   var imageUrl = '/gull.gif';
-
-   var image = new Image();
-   image.src = imageUrl;
-   image.alt = 'The LGBT Gull';
-   image.className = 'gif-image'; // Заменяем id на class
-
-   image.onload = function() {
-     imageContainer.appendChild(image);
-   };
- });
-</script>
-
 </body>
 </html>

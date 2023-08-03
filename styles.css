@@ -86,22 +86,3 @@ main {
   font-size: 20px;
   cursor: pointer;
 }
-
-/* Стили для контейнера с гиф-изображением */
-.gif-container {
-  position: fixed;
-  bottom: -1px;
-  left: 0;
-  width: 100%;
-  height: auto;
-  z-index: 9999;
-  overflow: hidden; /* Скрываем все, что выходит за границы контейнера */
-}
-
-/* Стили для гиф-изображения */
-#imageContainer img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  transform: translateY(100%); /* Поднимаем изображение на 100% от его высоты, чтобы оно оказалось внизу контейнера */
-}
