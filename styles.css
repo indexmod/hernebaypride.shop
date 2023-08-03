@@ -86,3 +86,17 @@ main {
   font-size: 20px;
   cursor: pointer;
 }
+
+.gif-container {
+  position: fixed;
+  bottom: 1px;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  overflow: hidden; /* Скрываем все, что выходит за границы контейнера */
+}
+
+/* Стили для гиф-изображения */
+.gif-image {
+  width: 100%;
+  height: auto;
