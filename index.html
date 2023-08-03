@@ -90,8 +90,23 @@
         // Вставьте код JavaScript здесь
         history.replaceState(null, null, window.location.pathname.replace('.html', ''));
     </script>
-    <div class="gif-container">
-    <img class="gif-image" src="123.gif" alt="The LGBT Gull">
-  </div>
+  <div class="gif-container" id="imageContainer"></div>
+  <script>
+ // JavaScript код для вставки изображения
+ document.addEventListener('DOMContentLoaded', function() {
+   var imageContainer = document.getElementById('imageContainer');
+   var imageUrl = '/gull.gif';
+
+   var image = new Image();
+   image.src = imageUrl;
+   image.alt = 'The LGBT Gull';
+   image.className = 'gif-image'; // Заменяем id на class
+
+   image.onload = function() {
+     imageContainer.appendChild(image);
+   };
+ });
+</script>
+
 </body>
 </html>
