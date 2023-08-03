@@ -87,16 +87,18 @@ main {
   cursor: pointer;
 }
 
-.gif-container {
-  position: fixed;
-  bottom: -1px;
-  left: 0;
-  width: 100%;
-  z-index: 9999;
-  overflow: hidden; /* Скрываем все, что выходит за границы контейнера */
-}
+/* Стили для контейнера с гиф-изображением */
+ .gif-container {
+   position: fixed;
+   bottom: 0; /* Устанавливаем нижний край контейнера на нижний край окна */
+   left: 0;
+   width: 100%;
+   z-index: 9999;
+   overflow: hidden; /* Скрываем все, что выходит за границы контейнера */
+ }
 
-/* Стили для гиф-изображения */
-.gif-image {
-  width: 100%;
-  height: auto;
+ /* Стили для гиф-изображения */
+ .gif-container img {
+   width: 100%;
+   height: auto;
+ }
