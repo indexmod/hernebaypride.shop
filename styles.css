@@ -91,7 +91,7 @@ main {
  .gif-container {
    position: fixed;
    bottom: 0; /* Устанавливаем нижний край контейнера на нижний край окна */
-   left: 0;
+   left: 300px;
    width: 100%;
    z-index: 9999;
    overflow: hidden; /* Скрываем все, что выходит за границы контейнера */
